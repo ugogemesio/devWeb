@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="fontesBoostrap/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link href="css/estilo.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="login.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Comentários<span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="table-responsive">
+                <h1>Área restrita</h1>
+                <h2>Lista de usuários</h2>
+                <input type="submit" value="Incluir" class="btn btn-primary">
+
+                <table class="table">
+                    <thead>
+                        <tr>
+
+                            <td>id</td>
+                            <td>Nome</td>
+                            <td>Ações</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>ugO</td>
+                            <td>
+                                <input type="submit" value="Alterar" class="btn btn-danger">
+                                <input type="submit" value="Excluir" class="btn btn-warning">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+    <script src="fontesBoostrap/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
